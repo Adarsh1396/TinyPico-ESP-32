@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TINYPICO_ESP32">
+<wire x1="-17.34" y1="-8.89" x2="17.34" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-17.34" y1="-8.89" x2="-17.34" y2="8.89" width="0.127" layer="21"/>
+<wire x1="17.34" y1="-8.89" x2="17.34" y2="8.89" width="0.127" layer="21"/>
+<wire x1="17.34" y1="8.89" x2="-17.34" y2="8.89" width="0.127" layer="21"/>
+<pad name="25" x="-9.59" y="-7.635" drill="0.8"/>
+<pad name="26" x="-7.05" y="-7.635" drill="0.8"/>
+<pad name="27" x="-4.51" y="-7.635" drill="0.8"/>
+<pad name="15" x="-1.97" y="-7.635" drill="0.8"/>
+<pad name="14" x="0.57" y="-7.635" drill="0.8"/>
+<pad name="4" x="3.11" y="-7.635" drill="0.8"/>
+<pad name="3V3" x="5.65" y="-7.635" drill="0.8"/>
+<pad name="5V" x="8.19" y="-7.635" drill="0.8"/>
+<pad name="GND" x="10.73" y="-7.635" drill="0.8" shape="square"/>
+<pad name="BAT" x="13.27" y="-7.635" drill="0.8"/>
+<pad name="G" x="-9.59" y="7.635" drill="0.8" shape="square"/>
+<pad name="RST" x="-7.05" y="7.635" drill="0.8"/>
+<pad name="33" x="-4.51" y="7.635" drill="0.8"/>
+<pad name="32" x="-1.97" y="7.635" drill="0.8"/>
+<pad name="21" x="0.57" y="7.635" drill="0.8"/>
+<pad name="22" x="3.11" y="7.635" drill="0.8"/>
+<pad name="5" x="5.65" y="7.635" drill="0.8"/>
+<pad name="18" x="8.19" y="7.635" drill="0.8"/>
+<pad name="19" x="10.73" y="7.635" drill="0.8"/>
+<pad name="23" x="13.27" y="7.635" drill="0.8"/>
+<wire x1="18.02" y1="-4.46" x2="18.02" y2="4.48" width="0.127" layer="21"/>
+<wire x1="18.02" y1="-4.46" x2="10.72" y2="-4.46" width="0.127" layer="21"/>
+<wire x1="18.02" y1="4.48" x2="10.72" y2="4.48" width="0.127" layer="21"/>
+<wire x1="10.72" y1="-4.46" x2="10.72" y2="4.48" width="0.127" layer="21"/>
+<text x="-8" y="-1" size="1.4224" layer="21">TinyPICO ESP32</text>
+<text x="15" y="-3" size="1.4224" layer="21" rot="R90">USB-C</text>
+<text x="-8.89" y="-6.35" size="1.016" layer="21" rot="R90">25</text>
+<text x="-6.35" y="-6.35" size="1.016" layer="21" rot="R90">26</text>
+<text x="-3.81" y="-6.35" size="1.016" layer="21" rot="R90">27</text>
+<text x="-1.27" y="-6.35" size="1.016" layer="21" rot="R90">15</text>
+<text x="1.27" y="-6.35" size="1.016" layer="21" rot="R90">14</text>
+<text x="3.81" y="-6.35" size="1.016" layer="21" rot="R90">4</text>
+<text x="6.35" y="-6.35" size="1.016" layer="21" rot="R90">3V3</text>
+<text x="8.89" y="-6.35" size="1.016" layer="21" rot="R90">5V</text>
+<text x="11.43" y="-6.35" size="1.016" layer="21" rot="R90">G</text>
+<text x="13.97" y="-6.35" size="1.016" layer="21" rot="R90">BAT</text>
+<text x="-8.89" y="5.08" size="1.016" layer="21" rot="R90">G</text>
+<text x="-6.35" y="3.81" size="1.016" layer="21" rot="R90">RST</text>
+<text x="-3.81" y="5.08" size="1.016" layer="21" rot="R90">33</text>
+<text x="-1.27" y="5.08" size="1.016" layer="21" rot="R90">32</text>
+<text x="1.27" y="5.08" size="1.016" layer="21" rot="R90">21</text>
+<text x="3.81" y="5.08" size="1.016" layer="21" rot="R90">22</text>
+<text x="6.35" y="5.715" size="1.016" layer="21" rot="R90">5</text>
+<text x="8.89" y="5.08" size="1.016" layer="21" rot="R90">18</text>
+<text x="11.43" y="5.08" size="1.016" layer="21" rot="R90">19</text>
+<text x="13.97" y="5.08" size="1.016" layer="21" rot="R90">23</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TINYPICO_ESP32">
+<wire x1="22.86" y1="-12.7" x2="-35.56" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-12.7" x2="-35.56" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="12.7" x2="22.86" y2="12.7" width="0.254" layer="94"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<pin name="25" x="-33.02" y="-17.78" length="middle" rot="R90"/>
+<pin name="26" x="-27.94" y="-17.78" length="middle" rot="R90"/>
+<pin name="27" x="-22.86" y="-17.78" length="middle" rot="R90"/>
+<pin name="15" x="-17.78" y="-17.78" length="middle" rot="R90"/>
+<pin name="14" x="-12.7" y="-17.78" length="middle" rot="R90"/>
+<pin name="4" x="-7.62" y="-17.78" length="middle" rot="R90"/>
+<pin name="3V3" x="-2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="5V" x="2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="GND" x="7.62" y="-17.78" length="middle" rot="R90"/>
+<pin name="BAT" x="12.7" y="-17.78" length="middle" rot="R90"/>
+<pin name="G" x="-33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="RST" x="-27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="33" x="-22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="32" x="-17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="21" x="-12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="22" x="-7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="5" x="-2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="18" x="2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="19" x="7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="23" x="12.7" y="17.78" length="middle" rot="R270"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="22.86" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="22.86" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="5.08" width="0.254" layer="94"/>
+<text x="-16.78" y="-1" size="1.778" layer="94">TinyPICO ESP32</text>
+<text x="20.32" y="-3.54" size="1.778" layer="94" rot="R90">USB-C</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TINYPICO_ESP32">
+<gates>
+<gate name="G$1" symbol="TINYPICO_ESP32" x="5.08" y="27.94"/>
+</gates>
+<devices>
+<device name="" package="TINYPICO_ESP32">
+<connects>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
